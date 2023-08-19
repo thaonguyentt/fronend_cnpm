@@ -1,0 +1,82 @@
+.carouselBanner h5{
+  color: #b9a271;
+    font-size: 18px;
+    font-weight: bold;
+}
+.carouselBanner h2{
+  font-size: 50px;
+    font-weight: 900;
+    color: white;
+    line-height: 1 ;
+}
+.carouselBanner p{
+  font-size: 18px;
+  line-height: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif ;
+
+  
+}
+
+.carousel img {
+  object-fit: none;
+  height: 100%;
+}
+
+.carouselBanner .carousel-caption.d-md-block{
+  text-align: left;
+}
+
+.carousel-cap {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-inner{
+  height: 650px;
+}
+.carousel-item {
+  height: 100%;
+}
+
+.square-indicator.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px 5px 7px;
+  border: 0;
+  border: 1px solid #b9a271;
+opacity: 1;
+  background-color: transparent;
+}
+
+.square-indicator.carousel-indicators [data-bs-target]:hover {
+  background-color: #b9a271;
+
+}
+
+.dark-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.square-indicator.carousel-indicators {
+  position: absolute;
+  right: 80px;
+  bottom: 145px;
+  left: unset;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.square-indicator.carousel-indicators  [data-bs-target].active{
+  background-color: #b9a271;
+}

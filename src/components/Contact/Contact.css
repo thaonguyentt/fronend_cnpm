@@ -1,0 +1,41 @@
+.contactus-container {
+    background: #f5f5f5;
+    padding-bottom: 1rem;
+}
+
+.contact-title-container{
+    padding-top: 7rem;
+    height: 15rem;
+    background-color: #373737;
+    text-transform: uppercase;
+}
+
+.contact-title-container h1 {
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.embed_location_from_map {
+    width: 50vw;
+    height: 450px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.col.img_col {
+    padding: 0;
+    margin: 0;
+    margin-bottom: -6px;
+    border: 0;
+}
+
+.image-title-contactus {
+    background-image: url("../../shared/image/logoHozing/contact-us.jpeg");
+}
+

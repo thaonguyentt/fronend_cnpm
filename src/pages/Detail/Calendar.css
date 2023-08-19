@@ -1,0 +1,148 @@
+.second_font {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+
+    border-bottom: 1px solid #b9a271;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+}
+
+.calendar{
+    padding-top: 50px;
+    position: relative;
+}
+
+.my_calendar_body{
+    z-index: 2;
+    
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+    height: 20px;
+}
+
+.ant-picker-calendar-header {
+    padding-bottom: 40px;
+    padding-top: 5px;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 1180px){
+    .second_font {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 900;
+        color: #000;
+        text-transform: uppercase;
+        display: inline-block;
+        line-height: 1;
+    
+        border-bottom: 1px solid #b9a271;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        display: inline-block;
+        position: relative;
+        z-index: 3;
+    }
+
+    .ant-picker-calendar-header {
+        justify-content: left;
+        padding-bottom: 2rem;
+    }
+   }
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-body th {
+    padding-bottom: 10px;
+    padding-left: 0.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #343434;
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-body tbody {
+    text-align: center;
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date-today, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date-today {
+    background: #343434;
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-today {
+    border-color: #343434;
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date .ant-picker-calendar-date-value, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date .ant-picker-calendar-date-value, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date-today .ant-picker-calendar-date-value, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date-today .ant-picker-calendar-date-value {
+    color: #fff;
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+    height: 10px;
+}
+
+
+/* 
+booked or not book
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date {
+    background-color: burlywood;
+} */
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector:hover {
+    border: 1px solid #b9a271;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child, .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    color: #000;
+}
+
+.ant-radio-button-wrapper {
+    border: 1px solid #d9d9d9;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    color: #b9a271;
+}
+
+/* .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child:hover {
+    color: #b9a271;
+} */
+
+.calendar .intruction {
+    padding: 0;
+    margin-top: 28px;
+}
+
+.calendar .intruction li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 34px;
+}
+
+.calendar .intruction .white {
+    background: #fff;
+    display: inline-block;
+    opacity: .5;
+    height: 15px;
+    border: 1px solid #b3b3b3;
+}
+
+.calendar .intruction .choosing {
+    background: #343434;
+    display: inline-block;
+    height: 15px;
+    border: 1px solid #b3b3b3;
+}
+
+.calendar .intruction li span {
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+}

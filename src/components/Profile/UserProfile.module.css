@@ -1,0 +1,20 @@
+.profile {
+  margin: 3rem auto;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.profile h1 {
+  font-size: 5rem;
+  color: white;
+  padding-top: 5rem;
+}
+
+.profile .add_backgound_image{
+  background-image: url("../../shared/image/gallery/service_4_1.jpg");
+  height: 15rem;
+  margin-bottom: 3rem;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

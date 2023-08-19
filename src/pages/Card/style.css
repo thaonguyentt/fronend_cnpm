@@ -1,0 +1,105 @@
+.img-table {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+}
+.delete-product {
+  cursor: pointer;
+}
+.order-table thead.ant-table-thead {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.order-table .ant-table-thead > tr > th {
+  background-color: transparent;
+}
+.order-table
+  .ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  background-color: transparent;
+}
+.order-table .product-name {
+  font-family: "Roboto Condensed", "Open Sans", "Lato", sans-serif;
+}
+.order-table .ant-table-tbody > tr > td {
+  font-size: 16px;
+}
+.order-table {
+}
+.order-table {
+}
+.order-table {
+}
+.order-table {
+}
+.head-card h4{
+  color: white;
+  line-height: 2em;
+  font-weight: 700;
+  font-size: 18px;
+}
+.head-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-transform: uppercase;
+  background: #373737;
+  height: 60px;
+  line-height: 60px;
+  padding: 3px 30px 0 30px;
+  color: #fff;
+}
+.head-card span{
+  color: #8a8a8a;
+}
+.card-body{
+  background: #b9a271;
+  color: white;
+  padding: 50px 40px;
+}
+.title-money{
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.card-total {
+
+
+}
+.money-result{
+  font-weight: bold;
+}
+.card-body-item p{
+  margin: 15px 0;
+}
+.card-body-item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid ;
+  border-color: #ccb88c;
+}
+.card-body-item:last-child{
+  border-color: transparent;
+  margin-bottom: 50px;
+}
+.proceed-checkout{
+  background-color: white;
+  border-radius: 0;
+  font-size: 16px;
+  height: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .5s;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.proceed-checkout:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid transparent
+}

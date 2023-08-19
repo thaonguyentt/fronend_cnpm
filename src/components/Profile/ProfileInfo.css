@@ -1,0 +1,27 @@
+.frofile-info-container {
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+}
+
+.col-md-8 {
+    padding: 0;
+}
+
+@media screen and (max-width: 600px){
+    .frofile-info-container {
+        padding: 1rem;
+        margin: 1rem;
+        width: 100%;
+    }
+}
+
+.frofile-info-container p {
+    padding-left: 2.5rem;
+}
+
+.frofile-info-container .format-icon {
+    margin-right: 10px;
+}

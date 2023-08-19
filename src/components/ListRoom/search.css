@@ -1,0 +1,107 @@
+.search-component {
+  margin-top: -1rem;
+}
+@media screen and (max-width: 600px){
+  .search-component {
+    margin-top: -4rem;
+  }
+}
+.title-select {
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: "Roboto Condensed";
+}
+.title-small-select {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.arrow-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-small-select {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.grid-search {
+  margin-top: 100px;
+  padding: 39px 30px 67px;
+  /* display: grid; */
+  width: 100%;
+  /* grid-gap: 10px; */
+  border: 1px solid #e6e6e6;
+  /* grid-template-areas: "CheckIn CheckIn CheckOut CheckOut Adult Children Room"; */
+  background-color: white;
+}
+.item1 {
+  grid-area: CheckIn;
+}
+.item2 {
+  grid-area: CheckOut;
+}
+.item3 {
+  grid-area: Adult;
+}
+.item4 {
+  grid-area: Children;
+}
+.item5 {
+  grid-area: Room;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-search {
+    padding: 9px 0 7px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-search {
+  }
+}
+
+
+.select {
+  padding: 20px 40px 35px 45px;
+  border-right: 1px solid #e6e6e6;
+}
+
+.select:last-child {
+  border: none;
+}
+
+.arrow-icon {
+  color: #b7b7b7;
+}
+.search-component {
+}
+.main-button-component {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: -27px;
+  text-align: center;
+  /* background-color: white; */
+}
+.main-button {
+  margin: 0 auto;
+  font-family: Roboto Condensed;
+  height: 55px;
+  width: 231px;
+  vertical-align: middle;
+  background-color: #b9a271;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-button:hover,
+.main-button:active,
+.main-button:focus {
+  background-color: #b9a271;
+  opacity: 0.7;
+}

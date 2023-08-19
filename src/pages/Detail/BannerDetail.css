@@ -1,0 +1,66 @@
+
+.hozing_btn {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 1;
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    z-index: 5;
+}
+
+.position_button_detail{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hozing_btn_img{
+    border: 2px solid #b9a271;
+    color: #373737;
+    background-color: #fff;
+    display: flex;
+    z-index: 7;
+    padding: auto;
+    width: 22rem;
+    justify-content: center;
+    /* padding-left: 6rem;
+    padding-right: 6rem; */
+    bottom:3rem;
+}
+
+.hozing_btn_img:hover{
+    color: #b9a271;
+    /* display: none; */
+}
+
+.hozing_span_detail{
+    color:#b9a271;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.carousel-caption{
+    bottom: -0.5rem;
+}
+
+.info_detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.infor_detail_title {
+    text-transform: uppercase;
+}
+
+.infor_detail_item{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    color: #969696;
+}
+
+

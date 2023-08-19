@@ -1,0 +1,58 @@
+.classical-container {
+  width: 100%;
+  background-color: #242625;
+}
+.list-classical {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding: 90px 0px 90px 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.classical {
+  border-right: 1px solid #393b3a;
+  padding: 24px 0 18px;
+}
+.classical:last-child{
+  border:none;
+}
+@media screen and (max-width: 600px) {
+  .classical {
+    border-right: 1px solid transparent;
+  }
+}
+.classical .icon {
+  color: white;
+  font-size: 60px;
+  line-height: 1.2em;
+  padding: 24px 0 18px;
+}
+.classical *{
+  transition: .2s;
+}
+.classical .icon:hover {
+color: rgba(185, 162, 113, 0.9);
+}
+
+.classical-title h4 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  line-height: 1.2em;
+  color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 16px;
+}
+
+.classical-title h5 {
+  font-family: Playfair Display;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+}
+.classical-title {
+  padding: 13px 0 27px;
+}
+.classical-title:hover h4, .classical-title:hover h5{
+  color: white
+}

@@ -1,0 +1,43 @@
+
+.communication {
+    padding: 10px 10px 10px;
+}
+
+.communication_item {
+    padding: 50px 0 0;
+    z-index: 2;
+}
+
+.margin_custom {
+    margin-bottom: 13px;
+}
+
+ @media (min-width: 768px){
+    .watermark{
+        position: absolute;
+        transform: translate(-70%,50%);
+        color: #fff;
+        font-size: 150px;
+        opacity: .05;
+        font-style: italic;
+        margin-bottom: 50px;
+        font-family: "Playfair Display";
+        margin-top: 70px;
+        margin-left: 10%;
+    }
+ }
+ @media (max-width: 767px) {
+    .watermark{
+        margin-top: 11%;
+        position: absolute;
+        transform: translate(-50%,50%);
+        left: 50%;
+        color: #fff;
+        font-size: 150px;
+        opacity: .05;
+        font-style: italic;
+        margin-bottom: 50px;
+        font-family: "Playfair Display";
+    }
+}
+

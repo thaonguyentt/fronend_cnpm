@@ -1,0 +1,22 @@
+.button_detail {
+    background: #b9a271;
+    height: 4rem;
+    width: 4rem;
+    margin: auto 2rem;
+    z-index: 5;
+}
+
+.active {
+    display:flex;
+    flex-direction: row;
+}
+
+.format_other_room {
+    font-family: Playfair Display;
+    color: #b4b4b4;
+    justify-content: center;
+    display:flex;
+    padding-top: 3rem;
+    margin-bottom: -5rem;
+}
+

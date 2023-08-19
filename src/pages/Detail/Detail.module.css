@@ -1,0 +1,69 @@
+.backgound {
+    background-image: url('../../shared/image/detail/bg_room_detail.jpeg');
+    background-position: center left;
+    background-size: cover;
+    position: relative;
+}
+
+
+.backgound_overlay {
+    background-color: #000000;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.content_bg {
+    padding: 150px 0px 250px 0px;
+    margin: auto auto;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 50px;
+    z-index: 3;
+    position: relative;
+
+}
+
+.main_background {
+    background-color: #f4f4f4;
+    padding-bottom: 4rem;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 1000px){
+    .main_room_detail {
+        background: #fff;
+        display: block;
+        position: relative;
+        margin-top: -180px;
+        z-index: 1;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 1rem 5rem 4rem !important;
+    }
+}
+
+.main_room_detail {
+    background: #fff;
+    display: block;
+    position: relative;
+    margin-top: -180px;
+    z-index: 1;
+    margin-left: none !important;
+    margin-right: none !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
