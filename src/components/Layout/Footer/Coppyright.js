@@ -8,7 +8,7 @@ const Coppyright = () => {
             <p>
                 @{year} Hozing Hotel Booking.
                 <br />
-                Design and Develop by Hoa and Thao
+                Design and Develop by Thao
             </p>
         </div>
     )

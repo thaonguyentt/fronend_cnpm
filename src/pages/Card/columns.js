@@ -66,8 +66,8 @@ export const  dummiedata = [
 
     productName: "John Brown",
     productDetail: {
-      checkIn: "2021-11-06",
-      checkOut: "2021-11-07",
+      checkIn: "2023-8-28",
+      checkOut: "2023-8-29",
       adult: 1,
       children: 1,
       room: 1,

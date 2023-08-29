@@ -22,11 +22,53 @@ const ListRoom = () => {
         setLoading(true)
         let response
         if(!filter.check_in || !filter.check_out){
-          response = await roomApi.getAll()
-        }else {
+          response = 
+          // [{
+          //   room_code: "2001",
+          //   num_people: "1",
+          //   area:"65",
+          //   price:"65",
+          //   description:"aaaaaaaaaaaaaaaaaaaaaaaa",
+          //   room_name: "suite room",
+          //   link_image: "https://i.ibb.co/QNkMLRk/2001.jpg",
+          //   service: "2"
+          //   },{
+          //     room_code: "2001",
+          //     num_people: "1",
+          //     area:"65",
+          //     price:"65",
+          //     description:"aaaaaaaaaaaaaaaaaaaaaaaa",
+          //     room_name: "suite room",
+          //     link_image: "https://i.ibb.co/QNkMLRk/2001.jpg",
+          //     service: "2"
+          //     },
+          //     {
+          //       room_code: "2001",
+          //       num_people: "1",
+          //       area:"65",
+          //       price:"65",
+          //       description:"aaaaaaaaaaaaaaaaaaaaaaaa",
+          //       room_name: "suite room",
+          //       link_image: "https://i.ibb.co/QNkMLRk/2001.jpg",
+          //       service: "2"
+          //       },{
+          //         room_code: "2001",
+          //         num_people: "1",
+          //         area:"65",
+          //         price:"65",
+          //         description:"aaaaaaaaaaaaaaaaaaaaaaaa",
+          //         room_name: "suite room",
+          //         link_image: "https://i.ibb.co/QNkMLRk/2001.jpg",
+          //         service: "2"
+          //         }]
+          // }
+          await roomApi.getAll()
+        }
+        else {
           response = await roomApi.filterRoom(filter)
         }
         setRoom(response.data)
+        // setRoom(response)
         setLoading(false)
       } catch (error) {
         console.log(error.message)

@@ -71,6 +71,7 @@ const AuthForm = () => {
         .then((data) => {
           const result = data;
           authCtx.login(result, 10000);
+          // authCtx.login({}, 10000);
           history.replace("/");
         })
         .catch((error) => {

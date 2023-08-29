@@ -48,7 +48,7 @@ const Details = ({ room }) => {
                     <span className={classes.style_span}>
                       <i class="fas fa-check"></i>
                     </span>
-                    {service.name} (${service.price} {service.unit})
+                    {service.name} ({service.price} {service.unit} / ngày)
                   </li>
                 );
               })}
@@ -60,7 +60,7 @@ const Details = ({ room }) => {
           <div className={classes.price}>
             <span className={classes.time_night_details}>from:</span>
             <span className={classes.amount}>${room.price}</span>
-            <span className={classes.time_night_details}>/Night</span>
+            <span className={classes.time_night_details}> /Night</span>
           </div>
           <div className={classes.buttons}>
             <div className="row">
